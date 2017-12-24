@@ -173,7 +173,7 @@ const comments = {
   "1rhFawccs":[
     {
       "text":"What's your lighting source?",
-      "user": "seth_mcleod"
+      "user": "se+th_mcleod"
     },
     {
       "text":"And what are you using for XLR mix adapter? I found a big price jump between $55 range and $170 range.",
