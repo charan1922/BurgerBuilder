@@ -11,7 +11,7 @@ import Main from './Main';
 
 
 function mapStateToProps(state){
-console.log('mapstate')
+
     return {
         posts:state.posts,
         comments: state.comments
