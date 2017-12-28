@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -11,6 +11,7 @@ import Main from './Main';
 
 
 function mapStateToProps(state){
+console.log('mapstate')
     return {
         posts:state.posts,
         comments: state.comments
@@ -18,7 +19,7 @@ function mapStateToProps(state){
 }
 
 function mapDispatchToProps(dispatch){
-    console.log('j')
+    console.log('dispatch')
     return bindActionCreators(ActionCreators, dispatch)
 }
 

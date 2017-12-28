@@ -1,24 +1,24 @@
-const increment = index => {
+export function increment ( index) {
     return {
-        type: 'INCREMENT_LIKES',
-        index
-    }
-},
+      type: "INCREMENT_LIKES",
+      index
+    };
+  }
 
-addComment = (postId , author , comment) => {
+  export function addComment (postId, author, comment) {
     return {
-        type:'ADD_INCREMENT',
-        postId,
-        author,
-        comment
-    }
-},
-removeComment = (postId , i) =>{
+      type: "ADD_INCREMENT",
+      postId,
+      author,
+      comment
+    };
+  }
+  
+  export function removeComment(postId, i) {
     return {
-        type:'REMOVE_COMMENT',
-        postId,
-        i
-    }
-};
+      type: "REMOVE_COMMENT",
+      postId,
+      i
+    };
+  }
 
-export default (increment,addComment,removeComment);
